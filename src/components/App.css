@@ -1,0 +1,62 @@
+main h2 {
+  padding: 10px;
+  font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 20px;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 10px;
+  }
+  
+  tbody tr:nth-child(even){
+    background-color: rgba(0, 0, 255, 0.075)
+  }
+
+  tbody tr:nth-child(odd){
+    background-color: rgba(0, 0, 255, 0.137)
+  }
+  
+  th {
+    background-color: rgba(0, 0, 255, 0.74);
+    color: white;
+  }
+  
+  th:nth-child(1) {
+    width: 50%;
+  }
+
+  th:nth-child(2) {
+    width: 30%;
+  }
+
+.btn {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background-color: #fff;
+    border: 2px solid rgba(0, 0, 255, 0.74);
+    color: rgba(0, 0, 255, 0.74);
+    transition: .2s;
+    cursor: pointer;
+  }
+
+.btn:hover {
+    background-color: rgba(0, 0, 255, 0.692);
+    border-color: rgba(0, 0, 255, 0.692);
+    color: #fff;
+  }
+
+  button:nth-child(1) {
+    margin: 5px;
+  }
+
+  .toDoTask {
+    padding-bottom: 30px;
+  }
